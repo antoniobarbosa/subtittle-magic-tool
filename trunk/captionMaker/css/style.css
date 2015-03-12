@@ -1,0 +1,59 @@
+#video {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 297px;
+}
+.captions {
+    text-align: center;
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+    right: 0;
+
+}
+.captions p{
+    padding:5px;
+    border-radius:3px;
+    display:none;
+    color: #FFF;
+    background:rgba(0,0,0,0.8)
+
+}
+#caption-table{
+    display:none;
+}
+.highlight {
+    background-color: #1BA9BB;
+}
+
+#new-node{
+    padding: 7px;
+    margin-top: -21px;
+}
+
+
+
+.td-time{
+    min-width: 150px;
+}
+.input-group-sm > .form-control, .input-group-sm > .input-group-addon, .input-group-sm > .input-group-btn > .btn {
+    height: 24px;
+    padding: 2px 5px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 0;
+}
+.editable-input{
+    display:none;
+}
+.reduce{
+    padding: 0;
+    height: 24px;
+    font-size: 13px;
+}
+.table-hider{
+    display: none;
+    overflow-y: scroll;
+    height: 200px;
+}
